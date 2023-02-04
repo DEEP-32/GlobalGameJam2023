@@ -21,6 +21,9 @@ namespace TarodevController
         public Vector3 RawMovement { get; private set; }
         public bool Grounded => _colDown;
 
+        public bool isFacingRight => transform.rotation.y == 0f;
+
+        private Vector3 _rotation;
         private Vector3 _lastPosition;
         private float _currentHorizontalSpeed, _currentVerticalSpeed;
 
@@ -37,6 +40,7 @@ namespace TarodevController
             _lastPosition = transform.position;
 
             GatherInput();
+            RotatePlayer();
             RunCollisionChecks();
 
             CalculateWalk(); // Horizontal movement
@@ -49,14 +53,14 @@ namespace TarodevController
 
 
         #region Gather Input
-
         private void GatherInput()
         {
             Input = new FrameInput
             {
                 JumpDown = UnityEngine.Input.GetButtonDown("Jump"),
                 JumpUp = UnityEngine.Input.GetButtonUp("Jump"),
-                X = UnityEngine.Input.GetAxisRaw("Horizontal")
+                X = UnityEngine.Input.GetAxisRaw("Horizontal"),
+                Attack = _allowButtonHold ? UnityEngine.Input.GetKey(_attackKey) : UnityEngine.Input.GetKeyDown(_attackKey),
             };
             if (Input.JumpDown)
             {
@@ -64,7 +68,28 @@ namespace TarodevController
             }
         }
 
+        private void RotatePlayer()
+        {
+            if (Input.X > 0f && !isFacingRight)
+            {
+                _rotation.x = transform.rotation.x;
+                _rotation.z = transform.rotation.z;
+                _rotation.y = 0f;
+                transform.eulerAngles = _rotation;
+            }
+
+            else if (Input.X < 0f && isFacingRight)
+            {
+                _rotation.x = transform.rotation.x;
+                _rotation.z = transform.rotation.z;
+                _rotation.y = 180f;
+                transform.eulerAngles = _rotation;
+            }
+        }
+
         #endregion
+
+
 
         #region Collisions
 
@@ -331,6 +356,29 @@ namespace TarodevController
 
                 positionToMoveTo = posToTry;
             }
+        }
+
+        #endregion
+
+        #region Attack
+        [Header("ATTACK")]
+        [SerializeField] private bool _allowButtonHold = false;
+        [SerializeField] private KeyCode _attackKey = KeyCode.E;
+        [SerializeField, Tooltip("Time between player attacks")] private float _attackCooldown = .3f;
+        private float _lastTimeAttack = 0f;
+
+
+        private void Attack()
+        {
+            if (CanAttack())
+            {
+                Debug.Log("Attacking");
+            }
+        }
+
+        private bool CanAttack()
+        {
+            return (Time.time > _attackCooldown + _lastTimeAttack);
         }
 
         #endregion
