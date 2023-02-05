@@ -1,0 +1,2158 @@
+fileFormatVersion: 2
+guid: cd987aa9610a5ba48a8788e2a7982cf5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1982
+        width: 1163
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafabfda61b692b4c8ed18eb9e82d45d
+      internalID: -813311300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1983
+        width: 231
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c260d852e74c33b41b3c57d0c3a460f6
+      internalID: -1203696301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_2
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1983
+        width: 229
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf327fc7784ab946b0f3d4b37f7fa6e
+      internalID: 1077238356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_3
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1984
+        width: 228
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535f420bb45b5ba43913402f5bbe2ff2
+      internalID: -1700949992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_4
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1983
+        width: 223
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cf627c580e8ef4fab8d541a88c8ee0
+      internalID: -1482286101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1734
+        width: 220
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ceda5ce08809f4991c428571213ed5
+      internalID: 527509023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1735
+        width: 220
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7ff9e862a897349aca301d3b9ad1ea
+      internalID: -916937310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_7
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1735
+        width: 217
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dc017a2f80b574f826bd06fc4794da
+      internalID: 1683590432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_8
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1734
+        width: 215
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb7a45b8144d6849be872d8b377fd55
+      internalID: 1189927059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_9
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1734
+        width: 216
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832e3fa647cc7b44582afd3557fd17cc
+      internalID: 511689488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1486
+        width: 228
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c0b304b49e3054da80f32721af3b16
+      internalID: -307442199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_11
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1483
+        width: 231
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d867fba5931b57a4186daf3a455bf4be
+      internalID: 465210185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_12
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1481
+        width: 230
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3952d4dd1504647aa64f8e864eff1f
+      internalID: -895717078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_13
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1480
+        width: 230
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98cf5c71c58c8a4b98c59b5c878c850
+      internalID: 521556876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_14
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1485
+        width: 218
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3889e960da2d704ab4044ebefad535c
+      internalID: 992929895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_15
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1231
+        width: 218
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a757f3ddf2ce93a41bd116767187124c
+      internalID: -1544079681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_16
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1410
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4cba602c582664fbc8b87725cd14f0
+      internalID: 821094369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_17
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1412
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8925875a43452b4428ce63e7a6f0bb20
+      internalID: 1984673900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1234
+        width: 220
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47873758bda51144ba6f56bb760fd69c
+      internalID: -712524449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_19
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1233
+        width: 221
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d737ad09a1ed64991543dc1d643aeb
+      internalID: -1204320574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_20
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1232
+        width: 231
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6892f30be808144a8a5d51bb9ea36ee
+      internalID: -599977418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_21
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1227
+        width: 232
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3754fcf49f561c4ca1d73ff2cd9c944
+      internalID: 318429865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_22
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1174
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874599a4fa2704947b5a60a740019b28
+      internalID: -2092746168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_23
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1188
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a5c7f66f99dda4eae4ba76176573de
+      internalID: -1572916019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_24
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1169
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee50d01667f0ed4fb751776a1444b74
+      internalID: -494203185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_25
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1149
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc9fb7e8a67b8144aa1b192436ecf67
+      internalID: 1499313305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_26
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1172
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4749bcd0a2bf6641ad73902058999df
+      internalID: -2073618909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 978
+        width: 224
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b845f0f4e9fb0429dbd6ccc7493b59
+      internalID: -1587395684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1160
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d331461e3fab8b548a7b31bac6fb5ece
+      internalID: 870143534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_29
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1161
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7b884b87d268147bfd017e0ec4e6b7
+      internalID: 612364307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_30
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1146
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229bdd1c8a6a3634db9edefb27563aa4
+      internalID: 1843848345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_31
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 951
+        width: 160
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40e46049422f64468926d2766899d21
+      internalID: -874015666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_32
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 1161
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7375375e7aa47b047a840a6e3bf8093f
+      internalID: -1399584852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_33
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1147
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83ca7371c48a9749a7f758e1e5b46c4
+      internalID: -1772090250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_34
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 962
+        width: 221
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e6686eeb3b16f41abc00286288a356
+      internalID: 1740532578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_35
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1148
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b75c3e496549924492accce5d5bf567
+      internalID: -864647262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_36
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 951
+        width: 198
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16b9291784a90d449ca9ff03c1c83a5
+      internalID: 675259910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_37
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1136
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1b717a569b1b644b51e9afe1cb39de
+      internalID: 481023692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_38
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1102
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b351523d07f4f45990900e07e099fd
+      internalID: 1223121999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_39
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 960
+        width: 122
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c63af3a31174b46902929ef8278872
+      internalID: -1252781634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_40
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1086
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c911299e2854c94193dbe84efcb97c2
+      internalID: 358928608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_41
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1042
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c184b91a5e710b43a9c8c6bdb33501b
+      internalID: 1805286077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_42
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1020
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3aebd61f94cbf545948382939fa7bc1
+      internalID: -1730127325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_43
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 901
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebca152859fe17458ce9aebf88d21b3
+      internalID: -86252368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_44
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 909
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3b8a698e4919d4dae71402108a1c14
+      internalID: 390941726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_45
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 911
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6b15032e63cc34f854e405a2195d24
+      internalID: 1504353693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_46
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 878
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c9a336626d5cc44be1adb96971dfbf
+      internalID: 239403524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_47
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 893
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eedb478900da644f8e0fe93897e7f69
+      internalID: 145544537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_48
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 733
+        width: 221
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac908529edb085c42875dbb0568ad148
+      internalID: -1679440909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_49
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 728
+        width: 220
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cad842ad7fb1244683cb8eb9f7db0b3
+      internalID: -1120561093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_50
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 720
+        width: 101
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a7fa20247d84644b6bac8dd8a644ab
+      internalID: -988980094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_51
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 867
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4922ccbbf9c525b48915cd421a80cb1a
+      internalID: 282899386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_52
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 849
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19571230661046a4baba624bbc550d66
+      internalID: -50003569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_53
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 820
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3cd79d9564b2b44ac9fde19c090b82
+      internalID: -479915504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_54
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 806
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ef51045955cba43a0cc718190f85be
+      internalID: -992278728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_55
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 817
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1177f853fa4cdf4aae607467b097a73
+      internalID: -1554382347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_56
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 791
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad704f72548bfd5418b3ae1813a641fa
+      internalID: -1455486381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_57
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 661
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71396b44f032a2f4a88eac670c5a5b6e
+      internalID: 1699889798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_58
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 674
+        width: 5
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8d0c6662e75f24f92a467bdda4ec6f
+      internalID: 96106383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_59
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 650
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67570c10f7297c4180eaed0a9b2cf59
+      internalID: -288776967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_60
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 673
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026ee1da1502eea49b664ee8deaf6211
+      internalID: 1519830745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_61
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 672
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90049dc76e4afa48a10c0f8cd99384a
+      internalID: 2075388544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_62
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 659
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66a78a7e6b69da49a66885fb3eaaf32
+      internalID: 8675951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_63
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 660
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b30ee67acac0f448d91e026facda0d
+      internalID: -1013770310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_64
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 661
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122528d2200b66f4391808a59974a325
+      internalID: -1261635031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_65
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 645
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913c0b39516f5364d88dce1e503ab52d
+      internalID: -1792273668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_66
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 451
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b3056615b26d24d85609db9dcbd0f0
+      internalID: 1882643473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_67
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 660
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754f21caa4dab754890b3c9d70f0e806
+      internalID: -2042255050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_68
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 647
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0505d4e1350cf754f9f298b1e27b7326
+      internalID: -1245544138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_69
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 477
+        width: 224
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60084ed08c3c47d4a98fb252d1ce87b7
+      internalID: 1952824153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_70
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 656
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e4ad085f73c724491ec084a7a232e1
+      internalID: -1179310733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_71
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 645
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20be77060a2b07f42b5e04f0c306ba1c
+      internalID: -1524462852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_72
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 451
+        width: 198
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3be3278029a3740b933752effec9ec
+      internalID: -1538045092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_73
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 636
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f578a269afe52ba44bd54aa3812b5b2e
+      internalID: 2022283957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_74
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 462
+        width: 221
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a135de74d9fda0740b9383e79fb8e50c
+      internalID: -1504336274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_75
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 601
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b40a92970e253d4997387abe3b7e467
+      internalID: 405490879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_76
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 0
+        width: 211
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3930ba9df3189a540aee295d20358d38
+      internalID: 1360483050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_77
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 586
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a9c0e27930bfe4faa008d2927a229a
+      internalID: -476254635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_78
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 579
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd69773b1c1a4e458edc480e84e8fcb
+      internalID: 1014549607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_79
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 542
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b856482b46cf1504e8d1a55bd53497fd
+      internalID: 882554544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_80
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 520
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0831a03ea86e3944aae75d2cab72a4cc
+      internalID: 1296034226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_81
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 377
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415b6d7c9604ff043b8cdc21834dc03f
+      internalID: -182531766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_82
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 400
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd77545e30516994aa01f55b80f063cd
+      internalID: 1670962672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_83
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 392
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adb40b6b562dce4f93adc3fe4304829
+      internalID: 1907725255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_84
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 220
+        width: 101
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593d5176d570c98489d403ec072846a7
+      internalID: 680818180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_85
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 366
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e6e2c25c74adc41840ca730dcd7990
+      internalID: -989574523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_86
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 348
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d677e0eba241cc469d607a019dff58a
+      internalID: 801164622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_87
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 319
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c67c3b50c7533409e831443b340df2
+      internalID: -1357343290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_88
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 305
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3642893c64694964c8093590031b91b8
+      internalID: -987730819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_89
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 317
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e70f285c77386458e081f045e3a556
+      internalID: -932366695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_90
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 291
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b48a524f338b3d4990a278425d11af9
+      internalID: -2112516902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Corruption Root_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1164
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ed125c5d21fc4409d15b97d0051216
+      internalID: 690246342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Ragnarok Online - Corruption Root_80: 1296034226
+      PC Computer - Ragnarok Online - Corruption Root_1: -1203696301
+      PC Computer - Ragnarok Online - Corruption Root_64: -1261635031
+      PC Computer - Ragnarok Online - Corruption Root_4: -1482286101
+      PC Computer - Ragnarok Online - Corruption Root_36: 675259910
+      PC Computer - Ragnarok Online - Corruption Root_50: -988980094
+      PC Computer - Ragnarok Online - Corruption Root_5: 527509023
+      PC Computer - Ragnarok Online - Corruption Root_41: 1805286077
+      PC Computer - Ragnarok Online - Corruption Root_46: 239403524
+      PC Computer - Ragnarok Online - Corruption Root_43: -86252368
+      PC Computer - Ragnarok Online - Corruption Root_86: 801164622
+      PC Computer - Ragnarok Online - Corruption Root_55: -1554382347
+      PC Computer - Ragnarok Online - Corruption Root_61: 2075388544
+      PC Computer - Ragnarok Online - Corruption Root_49: -1120561093
+      PC Computer - Ragnarok Online - Corruption Root_60: 1519830745
+      PC Computer - Ragnarok Online - Corruption Root_13: 521556876
+      PC Computer - Ragnarok Online - Corruption Root_22: -2092746168
+      PC Computer - Ragnarok Online - Corruption Root_68: -1245544138
+      PC Computer - Ragnarok Online - Corruption Root_90: -2112516902
+      PC Computer - Ragnarok Online - Corruption Root_63: -1013770310
+      PC Computer - Ragnarok Online - Corruption Root_58: 96106383
+      PC Computer - Ragnarok Online - Corruption Root_44: 390941726
+      PC Computer - Ragnarok Online - Corruption Root_42: -1730127325
+      PC Computer - Ragnarok Online - Corruption Root_17: 1984673900
+      PC Computer - Ragnarok Online - Corruption Root_39: -1252781634
+      PC Computer - Ragnarok Online - Corruption Root_59: -288776967
+      PC Computer - Ragnarok Online - Corruption Root_52: -50003569
+      PC Computer - Ragnarok Online - Corruption Root_77: -476254635
+      PC Computer - Ragnarok Online - Corruption Root_82: 1670962672
+      PC Computer - Ragnarok Online - Corruption Root_53: -479915504
+      PC Computer - Ragnarok Online - Corruption Root_26: -2073618909
+      PC Computer - Ragnarok Online - Corruption Root_30: 1843848345
+      PC Computer - Ragnarok Online - Corruption Root_24: -494203185
+      PC Computer - Ragnarok Online - Corruption Root_62: 8675951
+      PC Computer - Ragnarok Online - Corruption Root_40: 358928608
+      PC Computer - Ragnarok Online - Corruption Root_15: -1544079681
+      PC Computer - Ragnarok Online - Corruption Root_37: 481023692
+      PC Computer - Ragnarok Online - Corruption Root_88: -987730819
+      PC Computer - Ragnarok Online - Corruption Root_16: 821094369
+      PC Computer - Ragnarok Online - Corruption Root_23: -1572916019
+      PC Computer - Ragnarok Online - Corruption Root_32: -1399584852
+      PC Computer - Ragnarok Online - Corruption Root_72: -1538045092
+      PC Computer - Ragnarok Online - Corruption Root_79: 882554544
+      PC Computer - Ragnarok Online - Corruption Root_8: 1189927059
+      PC Computer - Ragnarok Online - Corruption Root_35: -864647262
+      PC Computer - Ragnarok Online - Corruption Root_56: -1455486381
+      PC Computer - Ragnarok Online - Corruption Root_19: -1204320574
+      PC Computer - Ragnarok Online - Corruption Root_2: 1077238356
+      PC Computer - Ragnarok Online - Corruption Root_85: -989574523
+      PC Computer - Ragnarok Online - Corruption Root_57: 1699889798
+      PC Computer - Ragnarok Online - Corruption Root_9: 511689488
+      PC Computer - Ragnarok Online - Corruption Root_7: 1683590432
+      PC Computer - Ragnarok Online - Corruption Root_3: -1700949992
+      PC Computer - Ragnarok Online - Corruption Root_65: -1792273668
+      PC Computer - Ragnarok Online - Corruption Root_28: 870143534
+      PC Computer - Ragnarok Online - Corruption Root_29: 612364307
+      PC Computer - Ragnarok Online - Corruption Root_67: -2042255050
+      PC Computer - Ragnarok Online - Corruption Root_76: 1360483050
+      PC Computer - Ragnarok Online - Corruption Root_20: -599977418
+      PC Computer - Ragnarok Online - Corruption Root_69: 1952824153
+      PC Computer - Ragnarok Online - Corruption Root_25: 1499313305
+      PC Computer - Ragnarok Online - Corruption Root_74: -1504336274
+      PC Computer - Ragnarok Online - Corruption Root_31: -874015666
+      PC Computer - Ragnarok Online - Corruption Root_84: 680818180
+      PC Computer - Ragnarok Online - Corruption Root_71: -1524462852
+      PC Computer - Ragnarok Online - Corruption Root_51: 282899386
+      PC Computer - Ragnarok Online - Corruption Root_38: 1223121999
+      PC Computer - Ragnarok Online - Corruption Root_0: -813311300
+      PC Computer - Ragnarok Online - Corruption Root_78: 1014549607
+      PC Computer - Ragnarok Online - Corruption Root_83: 1907725255
+      PC Computer - Ragnarok Online - Corruption Root_81: -182531766
+      PC Computer - Ragnarok Online - Corruption Root_91: 690246342
+      PC Computer - Ragnarok Online - Corruption Root_6: -916937310
+      PC Computer - Ragnarok Online - Corruption Root_12: -895717078
+      PC Computer - Ragnarok Online - Corruption Root_18: -712524449
+      PC Computer - Ragnarok Online - Corruption Root_11: 465210185
+      PC Computer - Ragnarok Online - Corruption Root_47: 145544537
+      PC Computer - Ragnarok Online - Corruption Root_75: 405490879
+      PC Computer - Ragnarok Online - Corruption Root_27: -1587395684
+      PC Computer - Ragnarok Online - Corruption Root_54: -992278728
+      PC Computer - Ragnarok Online - Corruption Root_33: -1772090250
+      PC Computer - Ragnarok Online - Corruption Root_70: -1179310733
+      PC Computer - Ragnarok Online - Corruption Root_66: 1882643473
+      PC Computer - Ragnarok Online - Corruption Root_14: 992929895
+      PC Computer - Ragnarok Online - Corruption Root_21: 318429865
+      PC Computer - Ragnarok Online - Corruption Root_10: -307442199
+      PC Computer - Ragnarok Online - Corruption Root_73: 2022283957
+      PC Computer - Ragnarok Online - Corruption Root_34: 1740532578
+      PC Computer - Ragnarok Online - Corruption Root_45: 1504353693
+      PC Computer - Ragnarok Online - Corruption Root_89: -932366695
+      PC Computer - Ragnarok Online - Corruption Root_48: -1679440909
+      PC Computer - Ragnarok Online - Corruption Root_87: -1357343290
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
