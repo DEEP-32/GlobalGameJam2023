@@ -2,17 +2,8 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace TarodevController
-{
-    /// <summary>
-    /// Hey!
-    /// Tarodev here. I built this controller as there was a severe lack of quality & free 2D controllers out there.
-    /// Right now it only contains movement and jumping, but it should be pretty easy to expand... I may even do it myself
-    /// if there's enough interest. You can play and compete for best times here: https://tarodev.itch.io/
-    /// If you hve any questions or would like to brag about your score, come to discord: https://discord.gg/GqeHHnhHpz
-    /// </summary>
-    public class PlayerController : MonoBehaviour, IPlayerController
-    {
+   public class PlayerController : MonoBehaviour, IPlayerController
+   {
         // Public for external hooks
         public Vector3 Velocity { get; private set; }
         public FrameInput Input { get; private set; }
@@ -22,15 +13,34 @@ namespace TarodevController
         public bool Grounded => _colDown;
 
         public bool isFacingRight => transform.rotation.y == 0f;
-
+        private bool groundedCheck = false;
+        private bool _canTakeInput = true;
         private Vector3 _rotation;
         private Vector3 _lastPosition;
         private float _currentHorizontalSpeed, _currentVerticalSpeed;
+        
 
         // This is horrible, but for some reason colliders are not fully established when update starts...
         private bool _active;
         void Awake() => Invoke(nameof(Activate), 0.5f);
         void Activate() => _active = true;
+
+
+        private void OnEnable()
+        {
+            PlayerHealth.OnDie += StopAllMovements;
+        }
+
+        private void OnDisable()
+        {
+            PlayerHealth.OnDie -= StopAllMovements;
+        }
+
+        private void Start()
+        {
+           
+           
+        }
 
         private void Update()
         {
@@ -39,16 +49,27 @@ namespace TarodevController
             Velocity = (transform.position - _lastPosition) / Time.deltaTime;
             _lastPosition = transform.position;
 
+           
+
             GatherInput();
             RotatePlayer();
             RunCollisionChecks();
+            Attack();
 
             CalculateWalk(); // Horizontal movement
             CalculateJumpApex(); // Affects fall speed, so calculate before gravity
+         
             CalculateGravity(); // Vertical movement
+        
             CalculateJump(); // Possibly overrides vertical
 
             MoveCharacter(); // Actually perform the axis movement
+        }
+
+        private void StopAllMovements()
+        {
+            if(_active)
+                _active = false;
         }
 
 
@@ -60,7 +81,9 @@ namespace TarodevController
                 JumpDown = UnityEngine.Input.GetButtonDown("Jump"),
                 JumpUp = UnityEngine.Input.GetButtonUp("Jump"),
                 X = UnityEngine.Input.GetAxisRaw("Horizontal"),
-                Attack = _allowButtonHold ? UnityEngine.Input.GetKey(_attackKey) : UnityEngine.Input.GetKeyDown(_attackKey),
+                Y = UnityEngine.Input.GetAxisRaw("Vertical"),
+                AttackInput = _allowButtonHold ? UnityEngine.Input.GetKey(_attackKey) : UnityEngine.Input.GetKeyDown(_attackKey),
+               
             };
             if (Input.JumpDown)
             {
@@ -112,7 +135,7 @@ namespace TarodevController
 
             // Ground
             LandingThisFrame = false;
-            var groundedCheck = RunDetection(_raysDown);
+            groundedCheck = RunDetection(_raysDown);
             if (_colDown && !groundedCheck) _timeLeftGrounded = Time.time; // Only trigger when first leaving
             else if (!_colDown && groundedCheck)
             {
@@ -156,6 +179,13 @@ namespace TarodevController
 
         private void OnDrawGizmos()
         {
+
+            //Wall Detect
+            //Gizmos.color = Color.green;
+            //Gizmos.DrawLine(transform.position, transform.right *( boxCol.bounds.size.x * .5f + _wallDetectRange));
+
+
+            
             // Bounds
             Gizmos.color = Color.yellow;
             Gizmos.DrawWireCube(transform.position + _characterBounds.center, _characterBounds.size);
@@ -370,9 +400,10 @@ namespace TarodevController
 
         private void Attack()
         {
-            if (CanAttack())
+            if (CanAttack() && Input.AttackInput && groundedCheck)
             {
                 Debug.Log("Attacking");
+                _lastTimeAttack = Time.time;
             }
         }
 
@@ -382,5 +413,8 @@ namespace TarodevController
         }
 
         #endregion
-    }
-}
+
+        
+
+
+   }

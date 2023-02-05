@@ -1,13 +1,13 @@
 using UnityEngine;
 
-namespace TarodevController
-{
+
     public struct FrameInput
     {
         public float X;
+        public float Y;
         public bool JumpDown;
         public bool JumpUp;
-        public bool Attack;
+        public bool AttackInput;
     }
 
     public interface IPlayerController
@@ -31,4 +31,3 @@ namespace TarodevController
 
         public readonly Vector2 Start, End, Dir;
     }
-}

@@ -41,6 +41,11 @@ public class PlayerHealth : MonoBehaviour
         health.CurrentHealth += healAmount;
     }
 
+    public void Kill()
+    {
+        TakeDamage(CurrentHealth);
+    }
+
     private void Die()
     {
         Debug.Log("Player Died");
