@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Player
+    uniqueID: 4241653681
+    locked: 0
+  - name: Root
+    uniqueID: 3793178675
+    locked: 0
+  - name: Ground
+    uniqueID: 2204312409
+    locked: 0
+  - name: BGlayer
+    uniqueID: 3921336407
+    locked: 0
