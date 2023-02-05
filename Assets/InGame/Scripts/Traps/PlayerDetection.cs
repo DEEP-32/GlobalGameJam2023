@@ -8,13 +8,13 @@ public class PlayerDetection : MonoBehaviour
     private float _lastTimeFire = 0f;
 
     private Transform _parent;
-
+    public static bool isplayerenter=false;
 
     private void Awake()
     {
         _parent = transform.parent;
     }
-
+  
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -28,6 +28,7 @@ public class PlayerDetection : MonoBehaviour
         {
             _parent.eulerAngles = new Vector3(transform.eulerAngles.x,180f,transform.eulerAngles.z);
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)

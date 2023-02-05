@@ -1,13 +1,13 @@
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Health")]
     [SerializeField, Range(100, 200),Tooltip("Starting health")] private float startHealth;
 
-    [Header("References")]
-    [SerializeField] private SpriteRenderer playerSprite;
+   
 
     [Header("On Damage Parameters")]
    // [SerializeField] private float changedColorTime = .2f;
@@ -17,10 +17,22 @@ public class PlayerHealth : MonoBehaviour
 
     private Health health;
     public float CurrentHealth => health.CurrentHealth;
+
+    public GameObject RestartB;
     private void Awake()
     {
         health = new Health(startHealth);
         //Debug.Log($"Starting health is: {startHealth}");
+        Time.timeScale = 1;
+    }
+    private void Update()
+    {
+            
+        if(health.CurrentHealth <= 0)
+        {
+            Time.timeScale = 0;
+            RestartB.SetActive(true);
+        }
     }
     public void TakeDamage(float dmgAmount)
     {
@@ -55,7 +67,10 @@ public class PlayerHealth : MonoBehaviour
     }
 
 
-    
+    public void RestartSceme(int sceneId)
+    {
+        SceneManager.LoadScene(sceneId);
+    }
 
     /*private IEnumerator damageFlash()
     {

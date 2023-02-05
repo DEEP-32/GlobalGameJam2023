@@ -6,10 +6,14 @@ public class Damage : MonoBehaviour
     [SerializeField] private float _damageAmount = 2f;
     private void OnParticleCollision(GameObject other)
     {
-        if(other.tag == "PLayer")
+        Debug.Log("Hi");
+        Debug.Log(other.tag);
+        if (other.tag == "Player")
         {
-            var health  = other.GetComponent<PlayerHealth>();
+            Debug.Log("Damaging");
+            var health = other.GetComponent<PlayerHealth>();
             health.TakeDamage(_damageAmount);
+            Debug.Log(health.CurrentHealth);
         }
     }
 }

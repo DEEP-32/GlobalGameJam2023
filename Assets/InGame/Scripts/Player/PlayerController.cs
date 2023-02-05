@@ -407,17 +407,18 @@ using UnityEngine;
      {
         if (CanAttack() && Input.AttackInput && groundedCheck)
         {
+            PlayerDetection.isplayerenter = true;
             Collider2D[] hitObjects = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, enemyLayer);
             if (hitObjects == null)
             {
                 //Debug.Log("Didnt hit anything");
                 return;
             }
-
+         
             foreach (Collider2D hitObject in hitObjects)
             {
-                var health = hitObject.GetComponent<PlayerHealth>();
-
+                var health = hitObject.GetComponent<EnemyHealth>();
+              
                 if (health == null)
                 {
                     continue;
@@ -426,8 +427,10 @@ using UnityEngine;
                 _lastTimeAttack = Time.time;
             }
         }
-     }
-        private bool CanAttack()
+      
+     
+    }
+    private bool CanAttack()
         {
             return (Time.time > _attackCooldown + _lastTimeAttack);
         }

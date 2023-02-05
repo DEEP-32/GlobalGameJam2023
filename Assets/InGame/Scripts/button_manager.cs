@@ -20,4 +20,19 @@ public class button_manager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneid);
     }
+    public void Quit()
+    {
+        Application.Quit(); 
+    }
+
+    public void GoBack()
+    {
+        background[0].SetActive(true);
+        background[1].SetActive(false);
+    }
+    private void OnDisable()
+    {
+        background[0].SetActive(true);
+        background[1].SetActive(false);
+    }
 }

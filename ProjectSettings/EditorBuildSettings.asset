@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/InGame/Scenes/DeepanshuScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/InGame/Scenes/Main_Menu.unity
+    guid: 4c1038493295f70458cd8e5e20494d35
+  - enabled: 1
+    path: Assets/InGame/Scenes/StoryScene.unity
+    guid: a0f92d08aca53be4cb32093f66607a64
+  - enabled: 1
+    path: Assets/InGame/Scenes/ShaikAkif.unity
+    guid: 77e0f0146b29b0341a1dfd59884dfe6e
   m_configObjects: {}
