@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 
    public class PlayerController : MonoBehaviour, IPlayerController
@@ -393,20 +394,39 @@ using UnityEngine;
         #region Attack
         [Header("ATTACK")]
         [SerializeField] private bool _allowButtonHold = false;
+    [SerializeField] private Transform _attackPoint;
+    [SerializeField] private float _attackRange = 2f;
+    [SerializeField] private LayerMask enemyLayer;
+    [SerializeField] private float _damageAmount = 3f;
         [SerializeField] private KeyCode _attackKey = KeyCode.E;
         [SerializeField, Tooltip("Time between player attacks")] private float _attackCooldown = .3f;
         private float _lastTimeAttack = 0f;
 
 
-        private void Attack()
+     private void Attack()
+     {
+        if (CanAttack() && Input.AttackInput && groundedCheck)
         {
-            if (CanAttack() && Input.AttackInput && groundedCheck)
+            Collider2D[] hitObjects = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, enemyLayer);
+            if (hitObjects == null)
             {
-                Debug.Log("Attacking");
+                //Debug.Log("Didnt hit anything");
+                return;
+            }
+
+            foreach (Collider2D hitObject in hitObjects)
+            {
+                var health = hitObject.GetComponent<PlayerHealth>();
+
+                if (health == null)
+                {
+                    continue;
+                }
+                health.TakeDamage(_damageAmount);
                 _lastTimeAttack = Time.time;
             }
         }
-
+     }
         private bool CanAttack()
         {
             return (Time.time > _attackCooldown + _lastTimeAttack);
@@ -414,7 +434,7 @@ using UnityEngine;
 
         #endregion
 
-        
 
 
-   }
+    
+ }

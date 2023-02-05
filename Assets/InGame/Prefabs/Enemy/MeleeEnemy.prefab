@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3840456589286481302}
   - component: {fileID: 3840456589286481289}
   - component: {fileID: 1956053983571645900}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MeleeEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 3840456589698600605}
   - component: {fileID: 3840456589698600604}
   - component: {fileID: 3840456589698600607}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3840456590946741606}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

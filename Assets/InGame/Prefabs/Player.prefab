@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 1971857273}
   m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _characterBounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.41, y: 0.4, z: 0}
+    m_Extent: {x: 0.5, y: 0.4, z: 0}
   _groundLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -287,18 +287,24 @@ MonoBehaviour:
   _rayBuffer: 0.1
   _acceleration: 90
   _moveClamp: 13
-  _deAcceleration: 60
+  _deAcceleration: 100
   _apexBonus: 2
   _fallClamp: -30
   _minFallSpeed: 80
   _maxFallSpeed: 120
   _jumpHeight: 30
   _jumpApexThreshold: 10
-  _coyoteTimeThreshold: 0.1
-  _jumpBuffer: 0.1
+  _coyoteTimeThreshold: 0.3
+  _jumpBuffer: 0.3
   _jumpEndEarlyGravityModifier: 3
   _freeColliderIterations: 10
   _allowButtonHold: 0
+  _attackPoint: {fileID: 0}
+  _attackRange: 2
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  _damageAmount: 3
   _attackKey: 101
   _attackCooldown: 0.3
 --- !u!61 &1971857271
@@ -361,4 +367,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
