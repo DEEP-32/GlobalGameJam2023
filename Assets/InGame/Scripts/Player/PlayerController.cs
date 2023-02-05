@@ -22,6 +22,7 @@ namespace TarodevController
         public bool Grounded => _colDown;
 
         public bool isFacingRight => transform.rotation.y == 0f;
+        private bool groundedCheck = false;
 
         private Vector3 _rotation;
         private Vector3 _lastPosition;
@@ -31,6 +32,18 @@ namespace TarodevController
         private bool _active;
         void Awake() => Invoke(nameof(Activate), 0.5f);
         void Activate() => _active = true;
+
+
+        private void OnEnable()
+        {
+            PlayerHealth.OnDie += StopAllMovements;
+        }
+
+        private void OnDisable()
+        {
+            PlayerHealth.OnDie -= StopAllMovements;
+        }
+
 
         private void Update()
         {
@@ -42,6 +55,7 @@ namespace TarodevController
             GatherInput();
             RotatePlayer();
             RunCollisionChecks();
+            Attack();
 
             CalculateWalk(); // Horizontal movement
             CalculateJumpApex(); // Affects fall speed, so calculate before gravity
@@ -49,6 +63,12 @@ namespace TarodevController
             CalculateJump(); // Possibly overrides vertical
 
             MoveCharacter(); // Actually perform the axis movement
+        }
+
+        private void StopAllMovements()
+        {
+            if(_active)
+                _active = false;
         }
 
 
@@ -60,7 +80,7 @@ namespace TarodevController
                 JumpDown = UnityEngine.Input.GetButtonDown("Jump"),
                 JumpUp = UnityEngine.Input.GetButtonUp("Jump"),
                 X = UnityEngine.Input.GetAxisRaw("Horizontal"),
-                Attack = _allowButtonHold ? UnityEngine.Input.GetKey(_attackKey) : UnityEngine.Input.GetKeyDown(_attackKey),
+                AttackInput = _allowButtonHold ? UnityEngine.Input.GetKey(_attackKey) : UnityEngine.Input.GetKeyDown(_attackKey),
             };
             if (Input.JumpDown)
             {
@@ -112,7 +132,7 @@ namespace TarodevController
 
             // Ground
             LandingThisFrame = false;
-            var groundedCheck = RunDetection(_raysDown);
+            groundedCheck = RunDetection(_raysDown);
             if (_colDown && !groundedCheck) _timeLeftGrounded = Time.time; // Only trigger when first leaving
             else if (!_colDown && groundedCheck)
             {
@@ -370,9 +390,10 @@ namespace TarodevController
 
         private void Attack()
         {
-            if (CanAttack())
+            if (CanAttack() && Input.AttackInput && groundedCheck)
             {
                 Debug.Log("Attacking");
+                _lastTimeAttack = Time.time;
             }
         }
 

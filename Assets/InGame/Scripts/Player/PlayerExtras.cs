@@ -7,7 +7,7 @@ namespace TarodevController
         public float X;
         public bool JumpDown;
         public bool JumpUp;
-        public bool Attack;
+        public bool AttackInput;
     }
 
     public interface IPlayerController
