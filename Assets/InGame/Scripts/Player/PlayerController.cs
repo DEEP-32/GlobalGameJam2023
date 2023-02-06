@@ -11,7 +11,9 @@ using UnityEngine;
         public bool JumpingThisFrame { get; private set; }
         public bool LandingThisFrame { get; private set; }
         public Vector3 RawMovement { get; private set; }
-        public bool Grounded => _colDown;
+       
+
+       public bool Grounded => _colDown;
 
         public bool isFacingRight => transform.rotation.y == 0f;
         private bool groundedCheck = false;
@@ -277,6 +279,7 @@ using UnityEngine;
                 // Clamp
                 if (_currentVerticalSpeed < _fallClamp) _currentVerticalSpeed = _fallClamp;
             }
+      
         }
 
         #endregion
@@ -407,7 +410,7 @@ using UnityEngine;
      {
         if (CanAttack() && Input.AttackInput && groundedCheck)
         {
-            PlayerDetection.isplayerenter = true;
+          
             Collider2D[] hitObjects = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, enemyLayer);
             if (hitObjects == null)
             {

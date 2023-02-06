@@ -10,7 +10,7 @@ public class EnemyHealth : MonoBehaviour
     private void Awake()
     {
         health = new Health(startHealth, maxHealth);
-        PlayerDetection.isplayerenter = false;
+      
     }
     private void Start()
     {
@@ -41,17 +41,6 @@ public class EnemyHealth : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-
-        if (collision.collider.tag == "Player")
-        {
-            Debug.Log("hit");
-            if (PlayerDetection.isplayerenter)
-            {
-                gameObject.SetActive(false);
-            }
-        }
-    }
+ 
    
 }

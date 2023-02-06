@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 
 using UnityEngine;
+using UnityEngine.Rendering.UI;
 
 public class PlayerAnim : MonoBehaviour
 {
@@ -44,9 +45,21 @@ public class PlayerAnim : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) )
         {
             anim.SetTrigger("isJump");
+            anim.SetBool("falling", false);
             anim.SetBool("isRunning", false);
         }
-  
+        if (controller.Velocity.y < 0 && !controller.Grounded)
+        {
+
+            anim.SetBool("falling", true);
+            anim.SetBool("isRunning", false);
+        }
+        else
+        {
+            anim.SetBool("falling", false);
+        }
+        Debug.Log(controller.Velocity.y);
+ 
     }
 
     private void Attack()

@@ -8,8 +8,7 @@ public class PlayerDetection : MonoBehaviour
     private float _lastTimeFire = 0f;
 
     private Transform _parent;
-    public static bool isplayerenter=false;
-
+ 
     private void Awake()
     {
         _parent = transform.parent;

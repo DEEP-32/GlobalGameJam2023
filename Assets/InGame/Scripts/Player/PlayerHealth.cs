@@ -18,7 +18,7 @@ public class PlayerHealth : MonoBehaviour
     private Health health;
     public float CurrentHealth => health.CurrentHealth;
 
-    public GameObject RestartB;
+ 
     private void Awake()
     {
         health = new Health(startHealth);
@@ -28,11 +28,7 @@ public class PlayerHealth : MonoBehaviour
     private void Update()
     {
             
-        if(health.CurrentHealth <= 0)
-        {
-            Time.timeScale = 0;
-            RestartB.SetActive(true);
-        }
+       
     }
     public void TakeDamage(float dmgAmount)
     {
