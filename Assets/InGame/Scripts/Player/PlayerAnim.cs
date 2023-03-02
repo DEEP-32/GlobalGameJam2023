@@ -1,11 +1,4 @@
-
-using System.Collections;
-using System.Collections.Generic;
-
-
 using UnityEngine;
-using UnityEngine.Rendering.UI;
-
 public class PlayerAnim : MonoBehaviour
 {
     public Animator anim;
@@ -24,7 +17,7 @@ public class PlayerAnim : MonoBehaviour
     {
         jumpAnim();
         RunAnim();
-        Attack();
+        //Attack();
     }
 
     private void RunAnim()
@@ -58,23 +51,9 @@ public class PlayerAnim : MonoBehaviour
         {
             anim.SetBool("falling", false);
         }
-        Debug.Log(controller.Velocity.y);
+       // Debug.Log(controller.Velocity.y);
  
     }
 
-    private void Attack()
-    {
-        if (controller.Input.AttackInput)
-        {
-            
-            anim.SetBool("isAttack", true);
-
-        }
-        else
-        {
-            anim.SetBool("isAttack", false);
-   
-        }
-
-    }
+    
 }
