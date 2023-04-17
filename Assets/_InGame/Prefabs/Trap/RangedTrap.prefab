@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6212356500067950104}
   - component: {fileID: 6212356500067950106}
   - component: {fileID: 6212356500067950105}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: TrapActivater
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6212356500212507788}
   - component: {fileID: 6212356500212507789}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: TrapGFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6212356500212507787}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.3, z: 0}
+  m_LocalPosition: {x: 0, y: 0.37, z: 0}
   m_LocalScale: {x: 0.7, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -159,6 +159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6212356500948359005}
   - component: {fileID: 6212356500948359004}
+  - component: {fileID: 1791513342}
   m_Layer: 7
   m_Name: RangedTrap
   m_TagString: Untagged
@@ -196,7 +197,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06786257, y: 0.08003342}
+  m_Offset: {x: 0.021572948, y: 0.53839016}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -207,8 +208,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.71825016, y: 2.3690045}
+  m_Size: {x: 1.1207097, y: 3.285718}
   m_EdgeRadius: 0
+--- !u!114 &1791513342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6212356500948359003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94b49ecbec406448bbe19fc80b17ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startHealth: 3
+  maxHealth: 0
 --- !u!1001 &6212356500412124114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -271,6 +286,10 @@ PrefabInstance:
     - target: {fileID: 9200292418440689230, guid: d15858535a0f2714aacb087d8b4811b6, type: 3}
       propertyPath: m_Name
       value: TrapParticles
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200292418440689230, guid: d15858535a0f2714aacb087d8b4811b6, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d15858535a0f2714aacb087d8b4811b6, type: 3}

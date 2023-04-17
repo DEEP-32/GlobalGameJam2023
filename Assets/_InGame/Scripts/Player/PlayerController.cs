@@ -411,7 +411,7 @@ public class PlayerController : MonoBehaviour, IPlayerController
         //Debug.Log($"Attack Input: {Input.AttackInput} and is it grounded: {groundedCheck}");
         if (CanAttack() && Input.AttackInput && groundedCheck)
         {
-           // Debug.Log("Attacking");
+             Debug.Log("Attacking");
             _animator.SetTrigger("IsAttack");
 
             Collider2D[] hitObjects = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, enemyLayer);

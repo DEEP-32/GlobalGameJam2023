@@ -5,6 +5,7 @@ public class PlayerDetection : MonoBehaviour
     [SerializeField] private bool _canShoot = false;
     [SerializeField] private float _fireCooldown = .7f;
     [SerializeField] private ParticleSystem _damageParticle;
+    private Transform playerTransform;
     private float _lastTimeFire = 0f;
 
     private Transform _parent;
@@ -17,6 +18,14 @@ public class PlayerDetection : MonoBehaviour
     {
         if (_canShoot)
         {
+            if (transform.position.x < playerTransform.position.x)
+            {
+                _parent.eulerAngles = Vector3.zero;
+            }
+            else if (transform.position.x > playerTransform.position.x)
+            {
+                _parent.eulerAngles = new Vector3(transform.eulerAngles.x, 180f, transform.eulerAngles.z);
+            }
             if (Time.time > _fireCooldown + _lastTimeFire && _canShoot)
             {
                 Debug.Log("Bursting Spores");
@@ -37,14 +46,8 @@ public class PlayerDetection : MonoBehaviour
     {
         Debug.Log("Trigger enter");
         _canShoot = true;
-        if(transform.position.x < other.transform.position.x)
-        {
-            _parent.eulerAngles = Vector3.zero;
-        }
-        else if(transform.position.x > other.transform.position.x)
-        {
-            _parent.eulerAngles = new Vector3(transform.eulerAngles.x,180f,transform.eulerAngles.z);
-        }
+        playerTransform = other.transform;
+        
         
     }
 
